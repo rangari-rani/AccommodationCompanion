@@ -7,7 +7,7 @@ Accommodation Companion is a platform that connects users to rooms that perfectl
 
 ![Home-Description](https://github.com/rangari-rani/AccommodationCompanion/blob/cb8e36c55d7c7b6ef71f566d1b23e2d8f1d49d9d/acc2.png)
 
-![Login](https://github.com/rangari-rani/AccommodationCompanion/blob/cb8e36c55d7c7b6ef71f566d1b23e2d8f1d49d9d/acc3.png)
+![Login](https://github.com/rangari-rani/AccommodationCompanion/blob/8c9625b6034e29c0ab3f462ce437d36d26e5a3a3/acc3.png)
 
 
 ## Tech Stack:
