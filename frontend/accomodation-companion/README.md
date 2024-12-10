@@ -1,90 +1,35 @@
-<!-- # Getting Started with Create React App
+# Accommodation Companion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Accommodation Companion is a platform that connects users to rooms that perfectly match their needs, ensuring a personalized and convenient experience.
 
-## Available Scripts
+## Demo:
+![Home-List](https://github.com/rangari-rani/AccommodationCompanion/blob/cb8e36c55d7c7b6ef71f566d1b23e2d8f1d49d9d/acc1.png)
 
-In the project directory, you can run:
+![Home-Description](https://github.com/rangari-rani/AccommodationCompanion/blob/cb8e36c55d7c7b6ef71f566d1b23e2d8f1d49d9d/acc2.png)
 
-### `npm start`
+![Login](https://github.com/rangari-rani/AccommodationCompanion/blob/8c9625b6034e29c0ab3f462ce437d36d26e5a3a3/acc3.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack:
+Some of the technologies used in the development of this web application are as follows:
 
-### `npm test`
+- **[React.js](https://reactjs.org/)**: A JavaScript library for building dynamic and responsive user interfaces.
+- **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for creating custom, responsive designs quickly.
+- **[Spring Boot](https://spring.io/projects/spring-boot)**: A robust Java framework for developing scalable and production-ready backend services.
+- **[JWT (JSON Web Tokens)](https://jwt.io/)**: A standard for securely authenticating HTTP requests.
+- **[MySQL](https://www.mysql.com/)**: A widely-used, open-source relational database management system for efficiently storing and managing structured data.
+- **[Vercel](https://vercel.com/)**: A platform for deploying and hosting modern web applications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
-
-Accommodation Companion is a web application used to find rooms to the users as per their needs.
-
-FEATURES 
-•	Regular Username/Password authentication.
-•	Stores user information in the MySQL database.
-•	Sort rooms by city, property type and prices.
-•	Stores authentication details like token information in cookies.
-•	Payment service using Stripe's API to book rooms.
-•	Responsiveness support for all devices.
-TOOLS USED
-•	ReactJS: Front-end Javascript framework.
-•	Spring Boot 2.0: Back-end JAVA framework to build microservices using Spring Rest Controller and Spring JPA.
-•	Material-UI: Used Google's material design based on the CSS Framework for a responsive website.
-•	MySQL: Stores product and user information.
-•	Stripe: Payment service API to handle user payment requests.
-•	Vercel : Deploying the web application on vercel.
-INSTALLATION
-•	Clone this repository and the backend repository from here. 
+  - **Registration & Validation**: Ensures users can securely sign up and verify their information to access the platform.
+  - **Email verification**: Ensures secure user login by sending a one-time password (OTP) for authentication.
+  - **Fetch rooms list** : Filter rooms by city, property type and prices.
+  - **Filter** : Search projects by keywords and filter them by categories
+  - **Project Details** : View detailed information about specific project.
+  - **Add Rooms** : Admin can add new rooms details.
+  - **Dashboard**: Admin can keep track of users registered. 
+    
+### License 
+[MIT License](LICENSE)
 
