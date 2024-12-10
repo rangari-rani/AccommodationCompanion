@@ -30,5 +30,6 @@ Some of the technologies used in the development of this web application are as 
   - **Add Rooms** : Admin can add new rooms details.
   - **Dashboard**: Admin can keep track of users registered. 
     
-
+### License 
+[MIT License](LICENSE)
 
